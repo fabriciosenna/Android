@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="atmempresaconsultoria.cursoandroid.com.atmempresaconsultoria.EmpresaActivity"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/empresa_detalhe"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:background="#ebebeb">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie, nunc ac blandit varius, purus turpis auctor leo, vel commodo justo lectus eu arcu. Maecenas libero sapien, gravida sit amet volutpat id, lacinia eget turpis. Pellentesque scelerisque sem ac bibendum mattis. Phasellus vehicula ullamcorper convallis. Aenean nisl ante, vehicula id dui eu, ornare semper ligula. Maecenas ullamcorper odio ut laoreet mattis. Praesent eu urna elit. Phasellus ultrices id augue semper volutpat. Vivamus at sapien sodales, facilisis quam vitae, volutpat ligula. Vivamus varius, sapien in congue aliquam, leo magna congue enim, ac tempor magna leo vel justo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie, nunc ac blandit varius, purus turpis auctor leo, vel commodo justo lectus eu arcu. Maecenas libero sapien, gravida sit amet volutpat id, lacinia eget turpis. Pellentesque scelerisque sem ac bibendum mattis. Phasellus vehicula ullamcorper convallis. Aenean nisl ante, vehicula id dui eu, ornare semper ligula. Maecenas ullamcorper odio ut laoreet mattis. Praesent eu urna elit. Phasellus ultrices id augue semper volutpat. Vivamus at sapien sodales, facilisis quam vitae, volutpat ligula. Vivamus varius, sapien in congue aliquam, leo magna congue enim, ac tempor magna leo vel justo."
+            android:id="@+id/textView2"
+            android:padding="@dimen/padding_padrao" />
+    </ScrollView>
+
+</RelativeLayout>
